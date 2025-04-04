@@ -1,0 +1,53 @@
+/* Fundo escuro estilo DOOM */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: red;
+    font-family: 'Press Start 2P', sans-serif;
+    text-align: center;
+  }
+  
+  /* Container principal */
+  .container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Estilo do título */
+  h1 {
+    font-size: 2rem;
+    text-shadow: 2px 2px 10px red;
+  }
+  
+  /* Big Card */
+  .big-card {
+    background-color: #220000;
+    border: 2px solid red;
+    padding: 20px;
+    width: 60%;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px red;
+  }
+  
+  /* Small Cards */
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    width: 80%;
+  }
+  
+  .small-card {
+    background-color: #440000;
+    border: 2px solid red;
+    padding: 15px;
+    width: 45%;
+    box-shadow: 0 0 5px red;
+  }
+  
